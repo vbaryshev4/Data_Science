@@ -1,10 +1,20 @@
 # Done:
 1)загрузить данные
 2) разгладить джейсоны
+3) в колонках разные типы данных. Привести к одинаковым типам
+MORE THAN ONE TYPES IN train_df fullVisitorId [<class 'str'>, <class 'int'>] ==> все 'int' к 'str'
+MORE THAN ONE TYPES IN train_df isTrueDirect [<class 'str'>, <class 'bool'>] ==> все 'bool' к 'str'
+MORE THAN ONE TYPES IN train_df isVideoAd [<class 'str'>, <class 'bool'>] ==> все 'bool' к 'str'
+MORE THAN ONE TYPES IN train_df targetingCriteria [<class 'str'>, <class 'dict'>] ==> все {} к 'empty_dict'
+MORE THAN ONE TYPES IN test_df fullVisitorId [<class 'str'>, <class 'int'>] ==> все 'int' к 'str'
+MORE THAN ONE TYPES IN test_df isTrueDirect [<class 'bool'>, <class 'str'>] ==> все 'bool' к 'str'
+MORE THAN ONE TYPES IN test_df isVideoAd [<class 'str'>, <class 'bool'>] ==> все 'bool' к 'str'
+MORE THAN ONE TYPES IN test_df targetingCriteria [<class 'str'>, <class 'dict'>] ==> все {} к 'empty_dict'
+
 
 # TODO:
-подумать, какие графики могут быть полезны
-посчитать статистики по признакам
+4) подумать, какие графики могут быть полезны
+5) посчитать статистики по признакам
 
 
 # Backlog
