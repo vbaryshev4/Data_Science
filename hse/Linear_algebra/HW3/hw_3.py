@@ -1,10 +1,21 @@
 import numpy as np
-
-A = [[5,2,-3],[4,5,-4],[6,4,-4]]
-A = np.array(A)
-print(A**2018)
+from numpy.linalg import matrix_power
 
 
-B = [[4, 3, -3],[2, 3, -2], [4, 4, -3]]
-B = np.array(B)
-print(B**2018)
+# Управжнение №1
+def count(x):
+	return x**3-6*x**2+11*x-6
+
+for i in range(-10, 10):
+	r = count(i) 
+	print(i, r)
+
+# Проверка решения
+T = [[1,1,1],[1,0,2],[2,1,2]]
+B = [[1,0,0],[0,2,0],[0,0,3]]
+TT = [[-2,-1,2],[2,0,-1],[1,1,-1]] #T-1
+
+X = np.matmul(np.matmul(T,B), TT)
+print(X)
+
+
