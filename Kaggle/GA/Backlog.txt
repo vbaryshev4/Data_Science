@@ -22,6 +22,16 @@ Score: 1.4828
                              counter_calc_method='SkipTest'
 Score: 1.5122
 
+6) CatBoostRegressor(iterations=100, thread_count=4, learning_rate=0.4,
+                             depth=7, border_count=100, has_time=True,
+                             counter_calc_method='Full', save_snapshot=True)
+   
+   CatBoostClassifier(iterations=100, thread_count=4, learning_rate=0.03,
+                             depth=7, border_count=100, has_time=True,
+                             counter_calc_method='SkipTest', save_snapshot=True)
+                             
+Score: 1.4660                            
+
 
 # Done:
 1)загрузить данные
@@ -44,7 +54,7 @@ MORE THAN ONE TYPES IN test_df targetingCriteria [<class 'str'>, <class 'dict'>]
 *) отдельная модель: после какой сессии по счету покупает пользователь
     Может быть сделать как отдельный признак
 22)Обучить модель на 1300 деревьях, депс = 7.
-
+13) Интегрировать код в блок с обучением катбуста. Для снижения снижения лернрейта
 
 
 
@@ -53,7 +63,6 @@ MORE THAN ONE TYPES IN test_df targetingCriteria [<class 'str'>, <class 'dict'>]
 7) посмотреть пересечения по пользователям в трейне и тесте
 
 10) на пример adContent, где очень мало заполнено данных создать рядом новую фичу 'заполнена ли adContent'. Может быть сам adContent дропуть, поскольку она не несет информацию. 
-13) Интегрировать код в блок с обучением катбуста. Для снижения снижения лернрейта
 9) на основое геоданных и визитстарттайма создать фичу времени суток захода в магазин
 24) разюить train_df['referralPath'] на первый уровень по слешу, внести фичу в датасэт
 25) Сделать классификацию: была ли покупка. ЗАполнить средним, тк РМСЕ
