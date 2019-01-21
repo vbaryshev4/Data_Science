@@ -1,0 +1,4 @@
+{
+"meta":{"launch_mode":"CV","name":"experiment","iteration_count":80,"learn_metrics":[{"best_value":"Min","name":"Logloss"},{"best_value":"Max","name":"AUC"}],"test_sets":["fold_0_test","fold_1_test","fold_2_test","fold_3_test","fold_4_test"],"test_metrics":[{"best_value":"Min","name":"Logloss"},{"best_value":"Max","name":"AUC"}],"learn_sets":["fold_0_learn","fold_1_learn","fold_2_learn","fold_3_learn","fold_4_learn"]},
+"iterations":[
+]}
