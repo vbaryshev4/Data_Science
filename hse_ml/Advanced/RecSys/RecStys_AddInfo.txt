@@ -1,0 +1,28 @@
+AddInfo:
+
+emil kayumov, [10 февр. 2019 г., 16:20:05]:
+по поводу рекомендаций.
+
+Конспекты (по сути весь материал кроме нейронных сетей и обсуждений особенностей):
+- https://github.com/esokolov/ml-course-hse/blob/master/2016-spring/lecture-notes/lecture19-recommender.pdf
+- https://github.com/esokolov/ml-course-hse/blob/master/2016-spring/lecture-notes/lecture20-recommender.pdf
+
+Статьи про применение нейронных сетей:
+- Neural Networks for Recommender Systems (http://ogrisel.github.io/decks/2017_dotai_neural_recsys)
+- Representation Learning and Pairwise Ranking for Implicit Feedback in Recommendation Systems (https://arxiv.org/pdf/1705.00105v2.pdf)
+- Wide & Deep Learning for Recommender Systems (https://arxiv.org/pdf/1606.07792.pdf)
+- Neural Collaborative Filtering (http://www.comp.nus.edu.sg/~xiangnan/papers/ncf.pdf)
+- Deep Neural Networks for YouTube Recommendations (https://research.google.com/pubs/pub45530.html)
+- Tag-Aware Personalized Recommendation Using a Hybrid Deep Model (http://www.ijcai.org/Proceedings/2017/0446.pdf)
+- Deep Learning based Recommender System: A Survey and New Perspectives https://arxiv.org/pdf/1707.07435.pdf 
+
+Ещё можно посмотреть:
+- Основная конференция по рекомендательным системам и статьи на ней (https://recsys.acm.org)
+- The Netflix Recommender System: Algorithms, Business Value, and Innovation (https://dl.acm.org/citation.cfm?id=2843948)
+- Сборник материалов: подходы, датасеты и прочее (https://github.com/chihming/competitive-recsys)
+
+Попрактиковаться:
+- Ещё демонстрация (https://www.kaggle.com/rounakbanik/movie-recommender-systems)
+- Ежегодный конкурс от конференции RecSys (http://www.recsyschallenge.com/2018/)
+
+слайды
