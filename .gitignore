@@ -116,3 +116,4 @@ venv.bak/
 *.pickle
 *.pkl
 *.tsv
+*.hdf5
