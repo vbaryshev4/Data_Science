@@ -117,3 +117,4 @@ venv.bak/
 *.pkl
 *.tsv
 *.hdf5
+*.jpg
