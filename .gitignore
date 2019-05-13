@@ -118,3 +118,5 @@ venv.bak/
 *.tsv
 *.hdf5
 *.jpg
+*.pptx
+*.vec
