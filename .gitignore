@@ -120,3 +120,4 @@ venv.bak/
 *.jpg
 *.pptx
 *.vec
+/Fast_GPU_PC
